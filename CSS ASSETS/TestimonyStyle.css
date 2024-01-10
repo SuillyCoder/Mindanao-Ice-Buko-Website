@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Merriweather&family=Prompt:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+
+body{
+    background-color: #19645F;
+    margin: 0px;
+    padding: 0px;
+    font-family: Prompt;
+}
+
+nav{
+    height: 150px;
+    width: 100%;
+    background-color: #19645F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.centerNav{
+    margin-top: 25px;
+    margin:auto;
+    height: 100px;
+    width: 55%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly
+}
+.centerNav img{
+    width: 100%;
+    height: 150px;
+    transition: all 0.7s ease;
+}
+
+.centerNav img:hover{
+    width: 107%;
+    height: 170px;
+}
+.centerNav p{
+    font-size: 1.2rem;
+}
+
+.centerNav p a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.7s ease;
+}
+
+.centerNav p a:hover{
+    padding: 10px;
+    background-color: white;
+    color: #04443F;
+}
+
+.dummyContentBox{
+    height: 4200px;
+    width: 100%;
+    background-color: white;
+}
+
+footer{
+    background-color: #19645F ;
+    color: white;
+    width: 100%;
+    height: 330px;
+}
+
+.footerContent{
+    margin: auto;
+    width: 70%;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+}
+.keepInTouch{
+    height: 390px;
+    width: 55%;
+}
+.keepInTouchText{
+    height: 150px;
+    width: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+.subscribe{
+    height: 35px;
+    width: 420px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.emailInput{
+    height: 29px;
+    width: 260px;
+}
+
+.subscribeButton{
+    width: 110px;
+    background-color: white;
+    color: #19645F;
+    border-radius: 7px;
+    border: 2px solid  #04443F;
+    transition: all 0.3s ease;
+}
+
+.subscribeButton.clicked {
+    transform: scale(0.8); /* Adjust the scale factor as needed */
+}
+
+.keepInTouch img{
+    width: 150px;
+    height: 130px;
+}
+
+.extraText{
+    height: 180px;
+    width: 375px;
+    margin-left: 30px;
+}
+
+.contact{
+    font-size: 2.1rem;
+    font-family: Lobster;
+}
+
+.footerColumn{
+    height: 390px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.footerColumn ul{
+    list-style-type: none;
+    line-break: 22px;
+}
+.footerColumn p{
+    font-size: 1.8rem;
+    font-family: Lobster;
+}
+
+.footerColumn a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+.KIT-Text{
+    font-size: 3.7rem;
+    font-family: Lobster;
+}
+
+/* ===========================SECTION EXCLUSIVE CODE ===================*/
+
+.homeIntroHeader{
+    color: white;
+    margin-top: 70px;
+    width: 100%;
+    height : 1000px;
+    border: black 2px solid;
+    border-bottom: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/Mindanao Ice Buko Media/Ice-Buko-Banner-Image.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+.imageText{
+    margin-left: 53%;
+    margin-top: 7%;
+    height: 75%;
+    width: 45%;
+}
+.imageText h1{
+    font-size: 7.4rem;
+    font-family: Lobster;
+}
+
+.imageSubText{
+    width: 600px;
+    height: 500px;
+}
+
+.imageSubText p{
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 50px;
+}
+
+.testimonyBox{
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.theQuoter{
+    height: 400px;
+    width: 300px;
+}
+.theQuoter img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 20px solid #19645F;
+}
+.quoterText{
+    margin:auto;
+    text-align: center;
+    margin-top: 13px;
+    width: 250px;
+    height: 57px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #19645F;
+    border-radius: 12px;
+    line-height: 57px;
+}
+
+.testimonyText{
+    text-align: justify;
+    background-color: #19645F;
+    border-radius: 13px;
+    height: 400px;
+    width: 75%;
+    padding: 19px;
+    font-size: 1.5rem;
+    line-height: 61px;
+}
+.quoter{
+    margin-left: 85px;
+}

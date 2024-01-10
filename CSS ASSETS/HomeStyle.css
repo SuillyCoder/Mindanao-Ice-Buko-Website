@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Merriweather&family=Prompt:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+
+body{
+    background-color: #19645F;
+    margin: 0px;
+    padding: 0px;
+    font-family: Prompt;
+}
+
+nav{
+    height: 150px;
+    width: 100%;
+    background-color: #19645F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.centerNav{
+    margin-top: 25px;
+    margin:auto;
+    height: 100px;
+    width: 55%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly
+}
+.centerNav img{
+    width: 100%;
+    height: 150px;
+    transition: all 0.7s ease;
+}
+
+.centerNav img:hover{
+    width: 107%;
+    height: 170px;
+}
+.centerNav p{
+    font-size: 1.2rem;
+}
+
+.centerNav p a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.7s ease;
+}
+
+.centerNav p a:hover{
+    padding: 10px;
+    background-color: white;
+    color: #04443F;
+}
+
+.dummyContentBox{
+    height: 2876.3px;
+    width: 100%;
+    background-color: white;
+}
+
+footer{
+    background-color: #19645F ;
+    color: white;
+    width: 100%;
+    height: 330px;
+}
+
+.footerContent{
+    margin: auto;
+    width: 70%;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+}
+.keepInTouch{
+    height: 390px;
+    width: 55%;
+}
+.keepInTouchText{
+    height: 150px;
+    width: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+.subscribe{
+    height: 35px;
+    width: 420px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.emailInput{
+    height: 29px;
+    width: 260px;
+}
+
+.subscribeButton{
+    width: 110px;
+    background-color: white;
+    color: #19645F;
+    border-radius: 7px;
+    border: 2px solid  #04443F;
+    transition: all 0.3s ease;
+}
+
+.subscribeButton.clicked {
+    transform: scale(0.8); /* Adjust the scale factor as needed */
+}
+
+.keepInTouch img{
+    width: 150px;
+    height: 130px;
+}
+
+.extraText{
+    height: 180px;
+    width: 375px;
+    margin-left: 30px;
+}
+
+.contact{
+    font-size: 2.1rem;
+    font-family: Lobster;
+}
+
+.footerColumn{
+    height: 390px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.footerColumn ul{
+    list-style-type: none;
+    line-break: 22px;
+}
+.footerColumn p{
+    font-family: Lobster;
+    font-size: 1.8rem;
+}
+
+.footerColumn a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+.KIT-Text{
+    font-size: 3.7rem;
+    font-family: Lobster;
+}
+
+
+/* ===========================SECTION EXCLUSIVE CODE ===================*/
+
+.homeIntroHeader{
+    color: white;
+    margin-top: 70px;
+    width: 100%;
+    height : 1000px;
+    border: black 2px solid;
+    border-bottom: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/Mindanao Ice Buko Media/Ice-Buko-Banner-Image.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+.imageText{
+    margin-left: 53%;
+    margin-top: 7%;
+    height: 75%;
+    width: 45%;
+}
+.imageText h1{
+    font-size: 8.5rem;
+    font-family: Lobster;
+}
+
+.imageSubText{
+    width: 600px;
+    height: 500px;
+}
+
+.imageSubText p{
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 50px;
+}
+
+.special{
+    font-family: Lobster;
+    margin: auto;
+    font-size: 2.3rem;
+    border: 2px solid #19645F;
+    color: white;
+    background-color: #19645F;
+    width: 750px;
+    height: 110px;
+    border-radius: 60px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.specializations{
+    width: 100%;
+    height: 620px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.specialiZATION{
+    height: 600px;
+    width: 450px;
+}
+.specialiZATION img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 20px solid #19645F;
+}
+.specializationSubtext{
+    margin:auto;
+    text-align: center;
+    margin-top: 13px;
+    width: 350px;
+    height: 57px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #19645F;
+    border-radius: 12px;
+    line-height: 57px;
+}
+
+.thirdHomeSection{
+    margin-top: 100px;
+    width: 100%;
+    height: 900px;
+    background-color: #04443F;
+    display: flex;
+}
+.thirdText{
+    color: white;
+    font-size: 1.3rem;
+    width: 45%;
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 55px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.thirdText p{
+    line-height: 57px;
+}
+
+.thirdImage{
+    width: 60%;
+    height: 900px;
+    background-image: url("/Mindanao Ice Buko Media/HistoryBannerThree.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+}
+
+
+
+
